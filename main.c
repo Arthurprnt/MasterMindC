@@ -121,7 +121,7 @@ void creeCombinaison(int tab[], int n) {
 	/*Crée une combinaison aleatoire. Renvoie cette combinaison*/
     for (int i = 0; i<n; i+=1) {
 
-        tab[i] = rand()%(NC+1);
+        tab[i] = rand()%NC;
     
     }
 
